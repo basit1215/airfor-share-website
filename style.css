@@ -5,6 +5,7 @@
 body{
   
     overflow-x: hidden;
+    width: 100%;
 }
 .nav-home{
 color: red !important;
@@ -27,10 +28,11 @@ color: red !important;
 .navbar{ 
      margin: 0px 30px;
    background-color: white !important; 
+   height: 100px;
 }
 
 .search-bar{
-    position: relative;
+    position:relative;
     bottom: -10px;
     padding-right: 10px;
 }
@@ -53,12 +55,15 @@ color: red !important;
 
 .main-btn{
     border: none;
-    width: 120px;
-    height: 40px;
+    width: 150px;
+    height: 45px;
+    background: #f5204b;
+    font-size: 13px;
+    font-weight: 500;
 }
  
 .main-1{
-    position: relative;
+    position: absolute;
     top: 425px;
     padding-left: 70px;
 }
@@ -87,6 +92,9 @@ color: red !important;
     color: gray;
 }
 
- 
+.main-2>img{
+    width: 100%;
+    height: 720px
+}
 
  

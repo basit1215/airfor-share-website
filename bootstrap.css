@@ -293,16 +293,18 @@ kbd {
 kbd kbd {
     padding: 0;
     font-size: 1em;
-    font-weight: 700
+    font-weight: 700;
 }
 
 figure {
-    margin: 0 0 1rem
+    margin: 0 0 1rem;
 }
 
 img,
 svg {
-    vertical-align: middle
+    vertical-align: middle;
+    width: 100%;
+
 }
 
 table {
